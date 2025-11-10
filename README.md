@@ -8,7 +8,7 @@
 1.在Package.swift文件添加如下代码:
 ```
 dependencies: [
-  .package(url: "https://github.com/pujiaxin33/JXSegmentedView.git", from: "1.2.1")
+  .package(url: "https://github.com/KnightSama/MonsterLayout.git", from: "1.0.2")
 ]
 ```
 2.使用命令行构建:
