@@ -1,6 +1,28 @@
 # MonsterLayout
 用尽可能少的代码完成 iOS AutoLayout 布局
 
+## 安装
+
+### Swift Package Manager
+
+1.在Package.swift文件添加如下代码:
+```
+dependencies: [
+  .package(url: "https://github.com/pujiaxin33/JXSegmentedView.git", from: "1.2.1")
+]
+```
+2.使用命令行构建:
+```
+$ swift build
+```
+
+### CocoaPods
+
+该方式已移除，请直接使用 SPM 引用
+
+### 手动
+
+Clone代码，把Sources文件夹拖入项目，就可以使用了；
 
 ## 使用示例
 
